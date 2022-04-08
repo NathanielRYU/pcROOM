@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body		{background-image:url(image/background.png);
+				background-position:left top;
+				background-repeat:no-repeat;
+				background-size:cover;}
+	#outSide	{margin-top:2%;
+				margin-left:15%;
+				font-size:23pt;
+				line-height:80px;
+				color:#FFFFFF;}
+	input		{height:50px;}
+	.tx			{text-align:center;}
+	#txOne		{margin-left:10%;
+				padding-left:11%;
+				padding-right:37%;}
+	#txTwo		{margin-left:7%;
+				padding-left:11%;
+				padding-right:29%;}
+	#txThree	{margin-left:4%;
+				padding-left:11%;
+				padding-right:37%;}
+	#txFour		{margin-left:4%;
+				padding-left:11%;
+				padding-right:37%;}
+	#ba			{background-color:#BDBDBD;
+				padding-left:5%;
+				padding-right:5%;
+				cursor:pointer;}
+	#che		{background-color:#BDBDBD;
+				cursor:pointer;}			
+	#sa			{background-color:#BDBDBD;
+				margin-left:48%;
+				padding-left:6.5%;
+				padding-right:6.5%;
+				cursor:pointer;}
+	#top		{font-size:25pt;
+				margin-top:4%;
+				margin-left:38%;
+				color:#FF24A3;}					
+</style>
+<script>
+
+	function authenticationSave() {
+		const userData = [];
+		const message = [ "이름을 입력하세요","닉네임을 입력하시오", "전화번호를 입력하시오","패쓰워드를 입력하시오 " ];
+		userData[0] = document.getElementsByName("pName")[0]; 
+		userData[1] = document.getElementsByName("nickname")[0];
+		userData[2] = document.getElementsByName("phonenum")[0];
+		userData[3] = document.getElementsByName("pPassword")[0];
+		
+		const form = document.getElementsByName("singin")[0]; 
+		
+		for (let index = 0; index < userData.length; index++) {
+			if (!isEmpty(userData[index])) {
+				alert(message[index]);
+				return;
+			} else {	
+			}
+		}
+		
+		alert("가입에 성공되면 초기화면으로 돌아갑니다.");
+		form.submit(); 
+	}
+	function isEmpty(obj) {
+		let check = true;
+		if (obj.value == "") {
+			check = false;
+		}
+		return check;
+	}
+	
+	function back() {
+		history.go(-1);
+	}
+	function openIdChk(){	
+		window.name = "parentForm";
+		openWin = window.open("idCheck.jsp",
+				"IC", "width=500, height=300, resizable = no, scrollbars = no");
+	}
+	
+	
+</script>
+</head>
+<body>
+	
+	<div id="outLine">
+		<div id="top">
+			<strong>[   회 / 원 / 가 / 입   ]</strong>
+		</div>
+		<div id="outSide">
+		<form name="singin" action="makeMember" method="post">
+			<div>
+				<span class="tx">이름</span>
+				<span><input type="text" id="txOne" name="pName" placeholder="이름" /></span>
+			</div>
+			<div>
+				<span class="tx">닉네임</span>
+				<span><input type="text" id="txTwo" name="nickname" placeholder="닉네임" /></span>
+				<span><input type="button" id="che" value="중복확인" onmouseover="this.style.backgroundColor='#A0D9E2';" onmouseout="this.style.backgroundColor='#BDBDBD';" onclick="openIdChk()"/></span><br>				
+			</div>
+			<div>
+				<span class="tx">전화번호</span>
+				<span><input type="text" id="txThree" name="phonenum" placeholder="전화번호" /></span>
+			</div>
+			<div>
+				<span class="tx">비밀번호</span>
+				<span><input type="password" id="txFour" name="pPassword" placeholder="비밀 번호" /></span>
+			</div>
+			<div id="ba_tx">
+				<span class="tx_po"><input type="button" id="ba" value="뒤로가기" onmouseover="this.style.backgroundColor='#A0D9E2';" onmouseout="this.style.backgroundColor='#BDBDBD';" onClick="back();" /></span>
+				<span class="tx_po"><input type="button" id="sa" value="저장" onmouseover="this.style.backgroundColor='#A0D9E2';" onmouseout="this.style.backgroundColor='#BDBDBD';" onClick="authenticationSave();" /></span>
+			
+			</div>
+		</form>
+		</div>
+	</div>
+	
+</body>
+
+</html>

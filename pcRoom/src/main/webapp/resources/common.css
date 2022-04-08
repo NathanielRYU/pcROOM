@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(../image/background.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.titleName {
+	font-weight: bold;
+	font-size: 33pt;
+	color: pink;
+	position: absolute;
+	left: 41.2%;
+	top:10%;
+}
+#top_left {
+	font-weight: bold;
+	color: #FFF;
+}
+
+#top_right {
+	margin-left: 90%;
+}
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px
+		rgba(0, 0, 0, 0.06);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+button:active, button:hover, button:focus {
+	background: var(- -button-hover-bg-color);
+	outline: 0;
+}
+
+button:disabled {
+	opacity: 0.5;
+}
+#bb {
+	position: absolute;
+	left: 90%;
+	top: 93%;
+	width:150px;
+	font-weight: bold;
+	font-size: 15pt;
+	height:30px;
+}
+#sevenText {
+	position: absolute;
+	margin-top: 34.5%;
+	margin-left: 88%;
+}
+
+#sideLeft {
+	float: left;
+	width: 20%;
+	margin-left: 15%;
+	margin-top: 3%;
+	padding-right: 20%;
+}
+
+#three{
+text-align: center;
+}
+
+#five{
+text-align: center;
+}
+
+
+.textOneA {
+	margin-left: 10%;
+	margin-top: 23%;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.textTwo {
+	margin-left: 10%;
+		color: #fff;
+}
+
+
+#sideRight {
+	float: left;
+}
+
+#one {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20pt;
+	background-color: #fff;
+	margin-left: 10%;
+}
+
+#two {
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+#four {
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+#six {
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+}
+#out {
+	position: absolute;
+	left: 90%;
+	top: 7%;
+	width:150px;
+	font-weight: bold;
+	font-size: 15pt;
+	height:30px;
+}
+.friends{
+float:left;
+text-align : center;
+}
+

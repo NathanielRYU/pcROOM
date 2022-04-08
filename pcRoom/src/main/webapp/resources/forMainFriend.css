@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+section {
+	position:absolute;
+	left:10%;
+	width:400px;
+	bottom:12%;
+	height:600px;
+}

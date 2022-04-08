@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+section {
+   position: absolute;
+   left: 14%;
+   width: 1400px;
+   top: 18%;
+   height: 60px;
+}
+
+#oneText {
+   float: left;
+}
+
+#twoText {
+   float: left;
+}
+
+#threeText {
+   float: left;
+}
+
+#fourText {
+   float: left;
+}
+
+#fiveText {
+   float: left;
+}
+
+#sixText {
+   float: left;
+}
+
+#sevenText {
+   position: absolute;
+   margin-top: 36%;
+   margin-left: 88%;
+}
+
+.mainTitle {
+   width: 18%;
+   margin-top: 1%;
+   margin-right: 1.7%;
+}
+
+.subTitle {
+   font-size: 25pt;
+   margin-left: 5%;
+   text-align: center;
+   background-color: #FFF;
+   cursor: pointer;
+}
+
+.storeName {
+   text-align: right;
+   color: #fff;
+   font-size: 16pt;
+}
+
+.note {
+   font-weight: bold;
+   font-size: 33pt;
+   position: absolute;
+   left: 15%;
+   top: 80%;
+   color: #fff;
+   font-size: 25pt;
+   width: 1600px
+}
+
+#sideText {
+   position: absolute;
+   margin-top: 20%;
+   margin-left: 40%;
+   font-weight: bold;
+   font-size: 20;
+   color: #fff;
+}
+

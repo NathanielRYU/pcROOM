@@ -1,0 +1,58 @@
+@charset "UTF-8";
+section {
+	position:absolute;
+	left:10%;
+	width:400px;
+	bottom:12%;
+	height:600px;
+}
+#dataTitle{
+background-color: #FFFFFF;
+    width : 50%;
+	position: absolute;
+	top: 20%;
+	left: 34%;
+	font-size : 15pt;
+	color : #000000;
+}
+
+#dataList{
+    overflow : auto;
+    background-color: white;
+    width : 50%;
+    height : 50%;
+	position: absolute;
+	top: 27%;
+	left: 34%;
+	font-size : 15pt;
+	color : #000000;
+	
+}
+
+.friends.nickName{
+ text-align : center;
+ width :33%;
+}
+
+.friends.pcRoom{
+ text-align : center;
+  width :33%;
+}
+
+.friends.states{
+ text-align : center;
+  width :33%;
+}
+
+#Friend{
+background-color: white;
+   
+    cursor : pointer;
+	position: absolute;
+	top: 20%;
+	left: 85%;
+	font-size : 15pt;
+	color : #6799FF;
+	border : 2px solid #D9E5FF;
+}
+

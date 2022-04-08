@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+  
+section {
+	position:absolute;
+	left:10%;
+	width:400px;
+	bottom:12%;
+	height:600px;
+}
+
+
+.titleNameforList {
+	font-weight: bold;
+	font-size: 33pt;
+}
+
+#reqTitle {
+	width: 300px;
+	height: 15px;
+	padding: 10px;
+	background-color: white;
+	position: absolute;
+	left: 35.1%;
+	top: 39.5%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12pt;
+	border: solid;
+}
+
+#reqList {
+	overflow: auto;
+	width: 300px;
+	height: 220px;
+	padding: 10px;
+	background-color: white;
+	float: right;
+	position: absolute;
+	top: 44%;
+	left: 35.3%;
+}
+
+#accept {
+	position: absolute;
+	left: 35.3%;
+	top: 71%;
+	width:150px;
+	font-weight: bold;
+	font-size: 15pt;
+	height:30px;
+}
+
+#refuse {
+	position: absolute;
+	left: 44.1%;
+	top: 71%;
+	width:150px;
+	font-weight: bold;
+	font-size: 15pt;
+	height:30px;
+}
+
+#resTitle {
+	width: 300px;
+	height: 15px;
+	padding: 10px;
+	background-color: white;
+	position: absolute;
+	left: 53.2%;
+	top: 39.5%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12pt;
+	border: solid;
+}
+
+#resList {
+	overflow: auto;
+	width: 300px;
+	height: 220px;
+	padding: 10px;
+	background-color: white;
+	float: right;
+	position: absolute;
+	top: 44%;
+	left: 53.4%;
+}
+
+#accept2 {
+	position: absolute;
+	left: 53.4%;
+	top: 71%;
+	width:150px;
+	font-weight: bold;
+	font-size: 15pt;
+	height:30px;
+}
+
+#refuse2 {
+	position: absolute;
+	left: 62.2%;
+	top: 71%;
+	width:150px;
+	font-weight: bold;
+	font-size: 15pt;
+	height:30px;
+}
+
+#blkTitle {
+	width: 300px;
+	height: 15px;
+	padding: 10px;
+	background-color: white;
+	position: absolute;
+	left: 71.3%;
+	top: 39.5%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12pt;
+	border: solid;
+}
+
+#blkList {
+	overflow: auto;
+	width: 300px;
+	height: 220px;
+	padding: 10px;
+	background-color: white;
+	float: right;
+	position: absolute;
+	top: 44%;
+	left: 71.4%;
+}
+
+#accept3 {
+	position: absolute;
+	left: 71.3%;
+	top: 71%;
+	width:150px;
+	font-weight: bold;
+	font-size: 15pt;
+	height:30px;
+}
+
+#refuse3 {
+	position: absolute;
+	left: 80.1%;
+	top: 71%;
+	width:150px;
+	font-weight: bold;
+	font-size: 15pt;
+	height:30px;
+}
+
+
+
+
+.searchBox {
+	background-color: white;
+	float: right;
+	position: absolute;
+	top: 30%;
+	left: 35.3%;
+}
+
+
+
+input {
+	height: 3.5em;
+	width: 330px;
+	padding: 0 10px;
+	box-shadow: 3px 3px 10px #566270;
+	outline: none;
+	border: none;
+	color: #4F86C6;
+	font-size: 18px;
+}
+
+::placeholder {
+	color: black;
+}
+
+.search {
+	height: 3.6em;
+	width: 70px;
+	color: #4F86C6;
+	position: absolute;
+	font-size: 18px;
+	padding: 0 10px;
+	box-shadow: 3px 3px 10px #566270;
+	outline: none;
+}
+
+#frIdCheckBox{
+background-color : #FFFFFF;
+position : absolute;
+top : 30%;
+left : 59%;
+width : 20%;
+height : 7%;
+
+}
+
+#frIdInput{
+margin-top : 13px;
+font-size : 13pt;
+text-align : center;
+}
+.friends.nickName{
+ text-align : center;
+ width :100%;
+}
+#reqFrId{
+color : red;
+font-size : 17pt;
+font-weight : bold;
+}

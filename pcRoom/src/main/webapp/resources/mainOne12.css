@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+	body			{background-image:url(image/background.png);
+					background-position:left top;
+					background-repeat:no-repeat;
+					background-size:cover;}
+	#top_left		{font-weight:bold;
+					color:#FFF;}
+	#top_right		{margin-left:90%;}
+	.titleName		{margin-left:36.5%;
+					margin-top:1%;
+					font-weight:bold;
+					font-size:33pt;
+					color:pink;}
+	#sevenText		{position:absolute;
+					margin-top:34.5%;
+					margin-left:88%;}
+	#sideLeft		{float:left;
+					width:20%;
+					margin-left:15%;
+					margin-top:3%;
+					padding-right:20%;}
+	.textOneA		{margin-left:10%;
+					margin-top:23%;
+					background-color:#fff;
+					cursor:pointer;}		
+	.textTwo		{margin-left:10%;}
+	#sideRight		{float:left;}
+	#one			{text-align: center;
+					font-weight:bold;
+					font-size:20pt;
+					background-color:#fff;
+					margin-left:10%;}
+	#two			{text-align: center;
+					font-weight:bold;
+					font-size:15pt;}
+	#four			{text-align: center;
+					font-weight:bold;
+					font-size:15pt;}
+	#six			{text-align: center;
+					font-weight:bold;
+					font-size:15pt;}
+	.textTwo		{color:#fff;}
+	
+	
